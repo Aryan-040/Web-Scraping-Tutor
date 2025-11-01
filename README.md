@@ -31,7 +31,7 @@ A production-ready data scraping and transformation pipeline that extracts publi
 
 1. **Clone or extract the project**
    ```bash
-   cd word-scraping-tutor
+   cd word-scraping-tool
    ```
 
 2. **Install dependencies**
