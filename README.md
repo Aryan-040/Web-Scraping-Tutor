@@ -8,7 +8,7 @@ A production-ready data scraping and transformation pipeline that extracts publi
 
 1. [Setup Instructions](#setup-instructions)
 2. [Environment Configuration](#environment-configuration)
-3.[Quick Start Guide](#quick-start-guide)
+3. [Quick Start Guide](#quick-start-guide)
 4. [Architecture Overview](#architecture-overview)
 5. [Design Reasoning](#design-reasoning)
 6. [Edge Cases Handled](#edge-cases-handled)

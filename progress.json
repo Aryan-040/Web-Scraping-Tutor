@@ -1,0 +1,23 @@
+{
+  "SPARK": {
+    "lastStartAt": 350
+  },
+  "KAFKA": {
+    "lastStartAt": 200
+  },
+  "HIVE": {
+    "lastStartAt": 50
+  },
+  "HADOOP": {
+    "lastStartAt": 100
+  },
+  "CASSANDRA": {
+    "lastStartAt": 150
+  },
+  "LUCENE": {
+    "lastStartAt": 150
+  },
+  "SOLR": {
+    "lastStartAt": 50
+  }
+}

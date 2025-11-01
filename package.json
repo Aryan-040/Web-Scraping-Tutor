@@ -1,0 +1,32 @@
+{
+  "name": "word-scraping-tutor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "scrape": "ts-node src/scraper.ts",
+    "transform": "ts-node src/transformer.ts",
+    "analyze": "ts-node src/analyze_dataset.ts",
+    "prepare": "ts-node src/prepare_dataset.ts",
+    "pipeline": "npm run scrape && npm run transform && npm run analyze && npm run prepare"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/readline-sync": "^1.4.8",
+    "axios": "^1.13.1",
+    "cli-progress": "^3.12.0",
+    "jsonlines": "^0.1.1",
+    "p-retry": "^7.1.0",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/cli-progress": "^3.11.6",
+    "@types/jsonlines": "^0.1.5",
+    "@types/node": "^24.9.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
