@@ -1,0 +1,16 @@
+# Large data files (exceed GitHub size limits)
+data/raw/HADOOP.json
+data/processed/output.jsonl
+
+# Node modules
+node_modules/
+
+# Build outputs
+dist/
+build/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
